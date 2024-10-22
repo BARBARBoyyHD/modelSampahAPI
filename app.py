@@ -33,7 +33,7 @@ def preprocess_image(image):
     return image
 
 @app.route('/', methods=['GET'])
-def hello():
+def index():
     return jsonify({"message": "Hello, World!"})
 
 
